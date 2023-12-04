@@ -39,18 +39,6 @@ function Callapi() {
             .catch((error) => console.error(error))
             .finally(() => setLoading(false));
     }
-    // function deleteData(id) {
-    //     //ketika menghapus berdasarkan id datanya
-    //     fetch(jsonUrl + '/' + id, {
-    //         method: 'DELETE',
-    //     })
-    //         .then((response) => response.json())
-    //         .then((json) => {
-    //             console.log(json);
-    //             alert('Data terhapus');
-    //             refreshPage();
-    //         })
-    // }
     return (
         <SafeAreaView>
             {isLoading ? (
