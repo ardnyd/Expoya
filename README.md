@@ -1,11 +1,17 @@
-"EXPOYA : Explore Yogyakarta" 
+#  EXPOYA : Explore Yogyakarta
 
+## Description
 Expoya is an Application that helps you to explore Yogyakarta according to the tpe of destination you want. Expoya has various features, such as various type of recommendation places, form to input your recommendation, and the list of recommendation places that able to navigate directly using Google Maps. Expoya also has a features to provide recommendations for cafes that can be visited around Yogyakarta.
 
+## Components
 Expoya is developed using the React Native framework and leverages various components and modules. This well-structured application adopts Bottom Tabs Navigation, dividing its interface into five main menus: Home Screen, Map Screen, Input Form, Data List, and Profile Screen. Apart from that, this application was created using various React Native components and utilizes components such as WebView to display tourist location point information on a map and displays a form to add tourist recommendation points. In addition, this application is also create by utilizing WebView to display HTML pages within the app, and using Stack Navigator to allow smooth navigation between pages.
 
-The data utilized in constructing this application is acquired through the internet and React Native modules.
+## Source Data
+1. Internet
+2. GitHub Repository
 
+
+## Structure
 These are the structure of the apps
 1. Landing page
    
