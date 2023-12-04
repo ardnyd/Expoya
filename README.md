@@ -1,4 +1,5 @@
 #  EXPOYA : Explore Yogyakarta
+*"Find the right place that suits your needs"*
 
 ## Description
 Expoya is an Application that helps you to explore Yogyakarta according to the type of destination you want. Expoya has various features, such as various type of recommendation places, form to input your recommendation, and the list of recommendation places that able to navigate directly using Google Maps. Expoya also has a features to provide recommendations for cafes that can be visited around Yogyakarta.
