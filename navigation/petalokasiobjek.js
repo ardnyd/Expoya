@@ -27,13 +27,6 @@ import Profil from '../profil';
 
 
 const Tab = createBottomTabNavigator();
-
-// const CategoryIcon = [
-//   <Fontawesome5 name="umbrella-beach" size={25} color={'#395144'} />,
-//   <Fontawesome5 name="mountain" size={25} color={'#395144'} />,
-//   <Fontawesome5 name="gopuram" size={25} color={'#395144'} />,
-//   <Fontawesome5 name="glass-cheers" size={25} color={'#395144'} />,
-// ];
 const {width} = Dimensions.get('screen');
 const Card = ({place}) => {
   return (
@@ -139,42 +132,6 @@ const ListCategories = () => {
 const forminput = 'https://ardnyd.github.io/pgpbl-12/';
 //peta map dari github page
 const webmap = 'https://ardnyd.github.io/pgpbl-12/map.html';
-// const navigateHome = () => {
-//   navigation.navigate('PetaScreen')
-// }
-// const DetailsScreen = ({ navigation }) => {
-//   return (
-//     <View>
-//       <Text>Details Screen</Text>
-//       <Button
-//         title="Go back to Home"
-//         onPress={() => navigation.navigate('OnBoardScreen')}
-//       />
-//     </View>
-//   );
-// };
-
-// const barIcon = (route, focused) => {
-//   let icon;
-//   // Atur ikon sesuai dengan nama rute
-//   if (route.name === 'Home') {
-//     icon = focused ? <HomeSolid size="30" color ={'#1C2E31'}/>: <HomeOutline size="30" strokeWidth={2} color="white" />
-//   } else if (route.name === 'Map') {
-//     icon = focused ? <MapSolid size="30" color ={'#1C2E31'}/>: <MapOutline size="30" strokeWidth={2} color="white" />
-//   } else if (route.name === 'Add Data') {
-//     icon = focused ? <AddSolid size="30" color ={'#1C2E31'}/>: <AddOutline size="30" strokeWidth={2} color="white" />
-//   } else if (route.name === 'List') {
-//     icon = focused ? <ListSolid size="30" color ={'#1C2E31'}/>: <ListOutline size="30" strokeWidth={2} color="white" />
-//   } else if (route.name === 'Profile') {
-//     icon = focused ? <ProfileSolid size="30" color ={'#1C2E31'}/>: <ProfileOutline size="30" strokeWidth={2} color="white" />
-//   }
-//   let buttonClass = focused? 'bg-white' : '';
-//   return (
-//     <View className={"flex items-center rounded-full p-3 shadow"+buttonClass}>
-//       {icon}
-//     </View>
-//   )
-// }
 
 function HomeScreen() {
   return (
@@ -229,13 +186,6 @@ function HomeScreen() {
         </View>
       </ScrollView>
     </SafeAreaView>
-    //   {/* <TouchableOpacity
-    //         onPress={navigateHome}>
-    //         <View style={styles.btn}>
-    //           <Text style={{fontWeight: 'bold'}}>Get Started</Text>
-    //         </View>
-    //       </TouchableOpacity> */}
-    // </View>
   );
 }
 function MapScreen() {
@@ -261,7 +211,6 @@ function ProfileScreen() {
 
 function MyTabs() {
   return (
-    // <NavigationContainer>
     <Tab.Navigator
       screenOptions={{
         headerShown: false,
@@ -330,7 +279,6 @@ function MyTabs() {
         }}
       />
     </Tab.Navigator>
-    // </NavigationContainer>
   );
 }
 
