@@ -74,24 +74,6 @@ function profil() {
             marginTop: -130,
           }}
         />
-        {/* <Text style={{flex:1, color: '#1C2E31', marginVertical: 10, fontSize: 30, marginTop:100}}>
-          Diandra Sabrina
-        </Text>
-        <Text style={{color: 'black', fontSize: 10}}>
-          {' '}
-          Undergraduated Student
-        </Text>
-        <Text
-          style={{
-            flexDirection: 'row',
-            marginVertical: 6,
-            color: 'black',
-            fontSize: 10,
-            alignItems: 'center',
-          }}>
-          {' '}
-          Yogyakarta, DIY
-        </Text> */}
         <Text
           style={{
             fontWeight: 'bold',
@@ -106,14 +88,7 @@ function profil() {
           Undergraduated Student
         </Text>
         <View style={{alignContent:'center', marginBottom: 500}}>
-          <View
-        //   style={{
-        //     flexDirection: 'row',
-        //     justifyContent: 'center',
-        //     alignItems: 'center',
-        //     marginTop: 20,
-        //   }}
-          >
+          <View>
             <View
               style={{
                 justifyContent: 'center',
@@ -124,7 +99,6 @@ function profil() {
                 marginLeft:-20
               }}>
                 <Fontawesome5 name="map-pin" size={15} color={'#1C2E31'}/>
-              {/* <Icon name="mobile-alt" size={25} color="#212121" /> */}
             </View>
             <View style={{justifyContent: 'center', marginLeft: 12, alignItems:'center', marginTop:-30}}>
             <Text style={{fontWeight: 'bold', fontSize:13.5}}>Yogyakarta, DIY</Text>
