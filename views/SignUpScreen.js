@@ -33,7 +33,6 @@ export default function LoginScreen() {
               padding: 10,
               marginLeft: 3,
             }}>
-            {/* <ArrowLeftIcon size="20" color="black" /> */}
             <Fontawesome5 name="arrow-left" size={23} color={'black'} />
           </TouchableOpacity>
         </View>
@@ -49,8 +48,6 @@ export default function LoginScreen() {
           />
         </View>
       </SafeAreaView>
-      
-
       <View
         style={{
           borderTopLeftRadius: 70,
@@ -60,14 +57,11 @@ export default function LoginScreen() {
           paddingVertical: 40,
           paddingHorizontal: 40,
         }}>
-        {/* <View style={styles.background}> */}
         <View style={{marginVertical: 2}}>
           <Text style={styles.text}>Full Name</Text>
           <TextInput style={styles.TextInput} placeholder="Enter Name" />
           <Text style={styles.text}>Email Address</Text>
           <TextInput style={styles.TextInput} placeholder="Enter Email" />
-          {/* <Text style={styles.text}>Domicile</Text>
-          <TextInput style={styles.TextInput} placeholder="Enter Domicile" /> */}
           <Text style={styles.text}>Password</Text>
           <TextInput
             secureTextEntry
@@ -80,10 +74,6 @@ export default function LoginScreen() {
             style={styles.TextInput}
             placeholder="Confirm Password"
           />
-          
-          {/* <TouchableOpacity style={{alignItems: 'flex-end'}}>
-            <Text style={{padding: 4, marginTop: 5}}>Forgot Password?</Text>
-          </TouchableOpacity> */}
           <TouchableOpacity
             onPress={navigateHome}
             style={{
@@ -123,8 +113,6 @@ export default function LoginScreen() {
         </View>
       </View>
     </View>
-    
-    // </View>
   );
 }
 const styles = StyleSheet.create({
@@ -134,11 +122,7 @@ const styles = StyleSheet.create({
     margin: 10,
     color: 'white',
     flexDirection: 'row',
-    size: 20,
-    // color: 'white',
-    // fontWeight: 'bold',
-    // fontSize: 20,
-    // fontFamily: 'Arial',
+    size: 20
   },
   background: {
     backgroundColor: '#C8DBBE',
