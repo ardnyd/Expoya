@@ -34,7 +34,6 @@ export default function LoginScreen() {
               marginLeft: 3,
               position: 'absolute'
             }}>
-            {/* <ArrowLeftIcon size="20" color="black" /> */}
             <Fontawesome5 name="arrow-left" size={23} color={'black'} />
           </TouchableOpacity>
         </View>
@@ -60,7 +59,6 @@ export default function LoginScreen() {
           paddingVertical: 40,
           paddingHorizontal: 40,
         }}>
-        {/* <View style={styles.background}> */}
         <View style={{marginVertical: 2}}>
           <Text style={styles.text}>Email Address</Text>
           <TextInput
@@ -115,7 +113,6 @@ export default function LoginScreen() {
         </View>
       </View>
     </View>
-    // </View>
   );
 }
 const styles = StyleSheet.create({
@@ -125,11 +122,7 @@ const styles = StyleSheet.create({
     margin: 10,
     color: 'white',
     flexDirection: 'row',
-    size: 20,
-    // color: 'white',
-    // fontWeight: 'bold',
-    // fontSize: 20,
-    // fontFamily: 'Arial',
+    size: 20
   },
   background: {
     backgroundColor: '#C8DBBE',
