@@ -12,11 +12,6 @@ import Fontawesome5 from 'react-native-vector-icons/FontAwesome5';
 import {useNavigation} from '@react-navigation/native';
 import {SafeAreaView} from 'react-native-safe-area-context';
 
-// const navigation = useNavigation();
-// const navigateHome = () => {
-//   navigation.navigate('PetaScreen');
-// };
-
 export default function Nature() {
   const navigation = useNavigation();
   const navigateHome = () => {
@@ -40,9 +35,7 @@ export default function Nature() {
               shadowOpacity: 0.2,
               shadowRadius: 1.41,
             }}>
-            {/* <ArrowLeftIcon size="20" color="black" /> */}
             <Fontawesome5 name="arrow-left" size={23} color={'white'} />
-            {/* <Text style={{color:'white', fontSize:15, padding: 10, marginLeft:10}}> Nature Places</Text> */}
           </TouchableOpacity>
           <StatusBar backgroundColor={'#395144'} />
         </View>
